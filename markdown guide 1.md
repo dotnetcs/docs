@@ -113,30 +113,42 @@
   
  [id]: URL "옵션 타이틀"
 ```
-
+```
 예시:   
- This is [an exaple][gurl] referred \[gurl] link
+ This is [an refered link][gurl]  
+ 
+[gurl]: https://google.com "구글 링크에요"  
+```
+This is [an refered link][gurl]
 
 [gurl]: https://google.com "구글 링크에요"    
  
  
 #### 인라인 링크
 링크 걸 문구에 하이퍼릴크를 삽입하는 방식이다.   
+```
 문법:  
- \[키워드](URL)
- 
-예시:  
-  This is [an example](google.com "Title") inlne link
+ [키워드](URL)
+```
 
+```
+예시:  
+  This is [an inlne link](google.com "Title") 
+```
+  This is [inlne link](google.com "Title")
+  
+  
 #### 자동 링크
 URL이 모두 노출되는 경우로, 좌우 괄호<>를 사용한다.  
+```
 문법:   
-   \<http://www.naver.com>  
-   \<myMail@email.com>  
+   <http://www.naver.com>  
+   <mailtome@email.com>  
+```
    
 예시:  
     <http://www.naver.com>
-	<myMail@email.com>
+    <mailtome@email.com>
     
 ### 이미지 
 링크와 동일하며, 맨 앞에 느낌표 (**!**) 를 붙이면 됩니다.  
